@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组</title>
+</head>
+<body>
+<script>
+    var a = new Array();
+//    将参数添加到数组的末尾，并返回数组的长度
+    var b = a.push(0,1,2,3,4,5,6,7,8,9,10,12,13);
+    console.log(a,b);
+//    删除数组的最后一项，并返回删除元素的值，数组为空则返回undefined
+    var c = a.pop();
+    console.log(a,c);
+//    删除数组的第一项，并返回删除元素的值，数组为空则返回undefined
+    var d = a.shift();
+    console.log(d,a);
+//    将参数添加的数组的开始，并返回数组长度
+    var e = a.unshift(9,8);
+    console.log(e,a);
+//    复制一个数组，并将元素添加到新数组中，返回新数组
+    var f = a.concat(11,21);
+    console.log(f,a);
+//    将数组倒叙排列，并返回
+    var g = a.reverse();
+    console.log(g,a);
+//    按照指定的方式对数组进行排序,单位数子可以直接进行排序，复杂的需用传入排序方法
+    var h = a.sort();
+    console.log(h,a);
+//    将数组转换为字符串，在每个相关字符之间插入元素并返回
+    var i = a.join("-");
+    console.log(i,a);
+    console.log(typeof(i));
+//    截取原数组中指定开始下标到结束下标之间的项并返回组成的新数组
+    var j = a.slice(3,8);
+    console.log(j,a);
+//    splice(start,deleteCount,val1,val2,...):从start位置开始删除deleteCount项，并从该位置起插入val1,val2,...
+    var k = a.splice(0,5,99,98,97);
+    console.log(k,a);
+//    var
+</script>
+</body>
+</html>
