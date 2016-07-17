@@ -62,19 +62,20 @@
             init : function(obj){
                 this.type = 'wheel';
                 this.obj = obj;
-                console.log(this.obj.firstChild);
+                console.log(obj);
             },
             moveNext : function(){
-
+                var
             },
             movePrev : function(){
 
             }
         }
         $(function () {
-            var obj = document.querySelector(".wheel");
+            var obj = document.querySelector(".wheel-box");
             new wheel(obj);
         })
+        console.log("0"+document.querySelector(".wheel-box").style.width);
     </script>
 </body>
 </html>
