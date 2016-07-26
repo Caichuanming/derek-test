@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee6844f-9849-4fa8-ba0d-afcabcad79b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ajax-cors.html" afterPath="$PROJECT_DIR$/Ajax-cors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2ee6844f-9849-4fa8-ba0d-afcabcad79b7" name="Default" comment="" />
     <ignored path="derek-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +81,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ajax-cors.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ajax-cors.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ajax-cors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06465517">
+            <state vertical-scroll-proportion="-2.5">
               <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ajax.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.291667">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="三级菜单.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/三级菜单.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2424569">
+              <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -117,6 +136,8 @@
         <option value="$PROJECT_DIR$/面向对象-轮播.html" />
         <option value="$PROJECT_DIR$/轮播焦点图.html" />
         <option value="$PROJECT_DIR$/Ajax-cors.html" />
+        <option value="$PROJECT_DIR$/Ajax.html" />
+        <option value="$PROJECT_DIR$/三级菜单.html" />
       </list>
     </option>
   </component>
@@ -483,8 +504,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ajax-cors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06465517">
+        <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.291667">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三级菜单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2424569">
+          <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
           <folding />
         </state>
       </provider>
