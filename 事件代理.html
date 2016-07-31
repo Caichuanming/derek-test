@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件代理</title>
+</head>
+<body>
+<script>
+    function addEvent(element,eType,handle,bol){
+        if(element.addEventListener){
+            element.addEventListener(eType,handle,bol);
+        }else if(element.attachEvent){
+            element.attachEvent(eType,handle);
+        }else{
+            element["on"+eType] = handle;
+        }
+    }
+    function handle(event){
+        var e = event || window.event;
+        var target = event.target || event.srcElement;
+
+    }
+</script>
+</body>
+</html>
