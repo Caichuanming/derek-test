@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee6844f-9849-4fa8-ba0d-afcabcad79b7" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
     </list>
     <ignored path="derek-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +30,11 @@
       <file leaf-file-name="轮播焦点图.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/轮播焦点图.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-0.0">
+=======
+            <state vertical-scroll-proportion="-26.791666">
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
               <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
               <folding />
             </state>
@@ -35,6 +43,7 @@
       </file>
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.html">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-20.0">
               <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
@@ -45,6 +54,8 @@
       </file>
       <file leaf-file-name="面向对象-轮播.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面向对象-轮播.html">
+=======
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
@@ -108,8 +119,35 @@
       <file leaf-file-name="三级菜单.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/三级菜单.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-0.0">
               <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+=======
+            <state vertical-scroll-proportion="-21.875">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <marker date="1469513949000" expanded="true" signature="104:2732" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="选项卡Tab切换.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/选项卡Tab切换.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.85452586">
+              <caret line="76" column="23" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
               <folding />
             </state>
           </provider>
@@ -131,6 +169,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -149,12 +188,17 @@
         <option value="$PROJECT_DIR$/Ajax-cors.html" />
         <option value="$PROJECT_DIR$/Ajax.html" />
         <option value="$PROJECT_DIR$/三级菜单.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/demo.txt" />
         <option value="$PROJECT_DIR$/jQuery/jQuery-Ajax.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/Ajax-jsonp.html" />
         <option value="$PROJECT_DIR$/闭包.html" />
         <option value="$PROJECT_DIR$/事件代理.html" />
+=======
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/选项卡Tab切换.html" />
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
       </list>
     </option>
   </component>
@@ -264,6 +308,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -556,6 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.131528">
           <caret line="1" column="5356" selection-start-line="1" selection-start-column="5355" selection-end-line="1" selection-end-column="5356" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -571,6 +617,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34545454">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -582,10 +629,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/轮播焦点图.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+=======
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
           <folding />
         </state>
       </provider>
@@ -650,24 +704,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ajax-jsonp.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-11.25">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+=======
+        <state vertical-scroll-proportion="-21.875">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <marker date="1469513949000" expanded="true" signature="104:2732" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/闭包.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/轮播焦点图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.791666">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/事件代理.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40384614">
           <caret line="21" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/选项卡Tab切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85452586">
+          <caret line="76" column="23" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="23" />
+>>>>>>> bf00fe9c63ab889e344b18432966aad0d59362aa
           <folding />
         </state>
       </provider>
