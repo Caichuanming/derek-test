@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery-Ajax</title>
+</head>
+<body>
+<p>点击更换内容</p>
+<button id="btn">点击</button>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script>
+    $(function(){
+        $("#btn").click(function(){
+            $.ajax({
+                url : "../demo.txt",
+                async : false,
+                success : function(result){
+                    $("p").html(result);
+                }
+            })
+        })
+    })
+</script>
+</body>
+</html>
