@@ -7,13 +7,10 @@
 <body>
 
 <script>
-    var a = [];
-    for (let i = 0; i < 10; i++) {
-        a[i] = function () {
-            console.log(i);
-        };
+    function test(x = 2, y = x){
+        return [x,y];
     }
-    a[6]();
+    test();
 </script>
 </body>
 </html>
