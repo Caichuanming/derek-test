@@ -1,49 +1,25 @@
 const gulp = require("gulp");
-
 const sourcemaps = require("gulp-sourcemaps");
-
 const babel = require("gulp-babel");
-
 const concat = require("gulp-concat");
 
- 
-
 gulp.task('default', () =>
-
-    gulp.src('src/**/*.js')
-
-        .pipe(babel({
-
-            presets: 'es2015'
-
-        }))
-
-        .pipe(gulp.dest('dist'))
-
+        gulp.src('src/**/*.js')
+            .pipe(babel({
+                presets: 'es2015'
+            }))
+            .pipe(gulp.dest('dist'))
 );
-
- 
 
 //生成sourcemaps
 
- 
-
 gulp.task('all', () =>
-
-    gulp.src('src/**/*.js')
-
-        .pipe(sourcemaps.init())
-
-        .pipe(babel({
-
-            presets: 'es2015'
-
-        }))
-
-        .pipe(concat('all.js'))
-
-        .pipe(sourcemaps.write('.'))
-
-        .pipe(gulp.dest('dist'))
-
+        gulp.src('src/**/*.js')
+            .pipe(sourcemaps.init())
+            .pipe(babel({
+                presets: 'es2015'
+            }))
+            .pipe(concat('all.js'))
+            .pipe(sourcemaps.write('.'))
+            .pipe(gulp.dest('dist'))
 );
