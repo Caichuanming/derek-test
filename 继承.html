@@ -6,19 +6,14 @@
 </head>
 <body>
 <script>
-    /*原型继承*/
-    function Person(name){
+    function Person(name,age){
         this.name = name;
+        this.age = age;
+//        console.log(this.name,this.age);
     }
-    Person.prototype.say = function(){
-        console.log(this.name);
-    }
-    var Derek = new Person('Derek');
-    Derek.say();
-    /*构造函数继承*/
-    function Elena(){
-        Person.apply(this,arguments);
-    }
+
+    var man = Person("Derek",25);
+    console.log(man.name);
 </script>
 </body>
 </html>
