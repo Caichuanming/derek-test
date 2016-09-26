@@ -6,18 +6,18 @@
 </head>
 <body>
 <script>
-    function Foo(){
-        var a = 100;
-
-        return function(x){
-            if(a>x){
-                return x;
+    var name = 'global';
+    var obj = {
+        name : 'obj',
+        dose : function(){
+            this.name = 'dose';
+            return function(){
+                return this.name;
             }
         }
     }
 
-    var foo = Foo();
-    console.log(foo(50));
+    alert(obj.dose().call(this))
 </script>
 </body>
 </html>
