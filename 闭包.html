@@ -21,6 +21,18 @@
     person.getNameFun();
     var derek = new Person();
     derek();
+    var name = 'global';
+    var obj = {
+        name : 'obj',
+        dose : function(){
+            this.name = 'dose';
+            return function(){
+                return this.name;
+            }
+        }
+    }
+
+    alert(obj.dose().call(this))
 </script>
 </body>
 </html>

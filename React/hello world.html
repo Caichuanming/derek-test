@@ -10,6 +10,7 @@
 <body>
 <div id="example"></div>
 <script type="text/babel">
+<<<<<<< HEAD
     var NotesList = React.createClass({
         render: function(){
             return (
@@ -21,6 +22,29 @@
             );
         }
     });
+=======
+    var HelloMessage = React.createClass({
+        render : function(){
+            return <div>Hello {this.props.name}!!!</div>;
+        }
+    });
+
+    ReactDOM.render(
+        <HelloMessage name="World" />,
+        document.getElementById("example")
+    );
+
+    var PostInput = React.createClass({
+        render : function(){
+            return <div><input placeholder={this.props.placeholder} /></div>;
+        }
+    })
+
+    ReactDOM.render(
+            <PostInput placeholder="请输入姓名"/>,
+            document.getElementById("example")
+    )
+>>>>>>> c16255b8ec58af0b279880cb341328b61490e1b0
 </script>
 </body>
 </html>

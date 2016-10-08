@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB存储</title>
+</head>
+<body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-cookie.js"></script>
+<script>
+    var derek = ['name','age',function say(){alert(1)}];
+    $.cookie("this-cookie",derek);
+    console.log($.cookie("this-cookie"));
+</script>
+</body>
+</html>
