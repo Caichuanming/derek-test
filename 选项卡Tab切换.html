@@ -61,10 +61,10 @@
 <body>
     <div class="tab-box">
         <ul class="tab-title">
-            <li class="active">Tab1</li>
-            <li>Tab2</li>
-            <li>Tab3</li>
-            <li>Tab4</li>
+            <li class="active">tab1</li>
+            <li>tab2</li>
+            <li>tab3</li>
+            <li>tab4</li>
         </ul>
         <ul class="tab-cont">
             <li class="active">TAB1</li>
@@ -73,10 +73,14 @@
             <li>TAB4</li>
         </ul>
     </div>
+    <script src="js/jquery-1.8.3.min.js"></script>
     <script>
-        function tabBox(){
+        $(".tab-title").on('click','li',function(){
+            $(this).addClass("active").siblings().removeClass("active");
+            var index = $(".tab-title li").index(this);
+            $(".tab-cont li").eq(index).addClass("active").siblings().removeClass("active");
 
-        }
+        })
     </script>
 </body>
 </html>
