@@ -6,6 +6,21 @@
 </head>
 <body>
 <script>
+    var person = {
+        name : 'Derek',
+        getNameFun : function(){
+            console.log(this.name);
+        }
+    }
+    function Person(){
+        var name = 'Derek';
+        return getNameFun = function(){
+            console.log(this);
+        }
+    }
+    person.getNameFun();
+    var derek = new Person();
+    derek();
     var name = 'global';
     var obj = {
         name : 'obj',

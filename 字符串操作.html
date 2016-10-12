@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字符串相关操作</title>
+</head>
+<body>
+<script>
+    var url = "www.chuanming.cai.com?name=derek&age=25";
+    var strNum = url.indexOf("?");
+    var str = url.substr(strNum+1);
+    var str1 = str.split("&");
+    console.log(str1);
+</script>
+</body>
+</html>
