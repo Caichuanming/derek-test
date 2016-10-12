@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsonp</title>
+</head>
+<body>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script>
+    var url = "http://localhost:8080/crcp/rcp/t99eidt/testjson.do?jsonp=callbackfunction";
+    var script = document.createElement('script');
+    script.setAttribute('src', url);  //load javascript
+    document.getElementsByTagName('head')[0].appendChild(script);
+
+    //回调函数
+    function callbackfunction(data){
+        var html=JSON.stringify(data.RESULTSET);
+        alert(html);
+    }
+    $.ajax({
+        url : '',
+        dataType : 'jsonp',
+        jsonp : 'callback',
+        jsonpCallback : '?',
+        success : function(data){
+            console.log(data);
+        },
+        error : function(){
+            console.log(error);
+        }
+
+
+    });
+</script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "derek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derek-Cai/derek-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Derek-Cai/derek-test/issues"
+  },
+  "homepage": "https://github.com/Derek-Cai/derek-test#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

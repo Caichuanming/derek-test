@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this用法</title>
+</head>
+<body>
+<script>
+    var people = {
+        name : "derek",
+        sayName : function(){
+            alert(this.name);
+        }
+    }
+
+    var student = Object(people);
+    student.name = "elena";
+    student.sayName();
+    people.sayName();
+
+</script>
+</body>
+</html>

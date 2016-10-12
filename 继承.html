@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>继承</title>
+</head>
+<body>
+<script>
+/*父类*/
+    function Animal(name){
+        this.name = name;
+        this.sleep = function(){
+            console.log(this.name + "正在睡觉!");
+        }
+    }
+
+    Animal.prototype.eat = function(food){
+        console.log(this.name + '正在吃' + food);
+    }
+/*原型链继承*/
+    function Cat(){
+
+    }
+    Cat.prototype = new Animal();
+    Cat.prototype.name = "小幺";
+
+    var cat = new Cat();
+//    cat.name = 'tom';
+    console.log(cat.name);
+    cat.sleep();
+    cat.eat("猫粮");
+/*构造继承*/
+    function Dog(name,age) {
+        Animal.call(this);
+//        Animal.apply(this,arguments);
+        this.name = name;
+        this.age = age;
+        this.speakAge = function(){
+            console.log(name+ '的年龄是' +this.age);
+        }
+    }
+
+    var dog1 = new Dog("tom",5);
+    dog1.speakAge();
+    var dog2 = new Dog("jack",2);
+    dog2.speakAge();
+</script>
+</body>
+</html>

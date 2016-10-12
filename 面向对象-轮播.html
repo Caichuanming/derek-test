@@ -20,10 +20,10 @@
 <body>
 <section class="carousel-box">
     <ul id="carousel-main">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
     </ul>
     <ul id="carousel-index">
         <a href="###" class="active"></a>
@@ -85,6 +85,7 @@
         move: function(index) {
             var translate = -index * this.width;
             var oThis = this;
+            console.log(oThis);
             for (var i = 0; i < this.num; i++) {
                 this.indexA[i].className = '';
             }
